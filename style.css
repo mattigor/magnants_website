@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    scroll-behavior: smooth;
+}
+header {
+    background-color: transparent;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    z-index: 2;
+    margin: 0 0 30px 0;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    background-color: black;
+    padding: 7px 0 7px 0;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+}
+li {
+    margin: 15px 10px 0 10px;
+    transition: 200ms;
+    text-align: center;
+}
+li a {
+    color: #CACACA;
+    font-size: 10pt;
+    text-decoration: none;
+    padding: 10px 15px 10px 15px;
+    border-radius: 6px;
+}
+.ativo { 
+    background-color: #3F0000;
+}
+#logo {
+    height: 35px;
+    width: 35px;
+    margin: 10px 0 0 0;
+}
+#home, #screenshots, #videos, #contact {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* HOME */
+#home {
+    background-image: linear-gradient(black, rgb(73, 0, 0) 90%);
+}
+#home-image {
+    display: grid;
+    place-content: center;
+}
+#home-image-image {
+    scale: 100%;
+}
+/* SCREENSHOTS */
+#screenshots {
+    background-image: linear-gradient(rgb(73, 0, 0), black 90%);
+}
+/* VIDEOS */
+#videos {
+    background-image: linear-gradient(black, rgb(73, 0, 0) 90%);
+}
+/* CONTACT */
+#contact {
+    background-image: linear-gradient(rgb(73, 0, 0), black 90%);
+}
+#magnants-carousel {
+    width: 60%;
+}
+.carousel-inner {
+    margin-top: 70px;
+    display: block;
+}
+.c-item {
+    height: auto;
+    background-color: transparent;
+}
+
+/* MEDIA QUERIES */
