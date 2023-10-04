@@ -71,6 +71,14 @@ li a {
 #screenshots {
     background-image: linear-gradient(rgb(73, 0, 0), black 90%);
 }
+.btn-nxt, .btn-pvs {
+    font-size: 30pt;
+    color: red;
+}
+.d-block {
+    width: 1000px;
+    border-radius: 10px;
+}
 /* VIDEOS */
 #videos {
     background-image: linear-gradient(black, rgb(73, 0, 0) 90%);
@@ -79,16 +87,4 @@ li a {
 #contact {
     background-image: linear-gradient(rgb(73, 0, 0), black 90%);
 }
-#magnants-carousel {
-    width: 60%;
-}
-.carousel-inner {
-    margin-top: 70px;
-    display: block;
-}
-.c-item {
-    height: auto;
-    background-color: transparent;
-}
-
 /* MEDIA QUERIES */
