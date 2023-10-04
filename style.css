@@ -65,19 +65,28 @@ li a {
     place-content: center;
 }
 #home-image-image {
+    margin-top: 70px;
     scale: 100%;
 }
 /* SCREENSHOTS */
 #screenshots {
     background-image: linear-gradient(rgb(73, 0, 0), black 90%);
 }
-.btn-nxt, .btn-pvs {
-    font-size: 30pt;
-    color: red;
-}
-.d-block {
+#magnants-carousel {
     width: 1000px;
+    margin-top: 70px;
+}
+.carousel-inner {
     border-radius: 10px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, .5);
+}
+.c-item {
+    height: auto;
+    background-color: transparent;
+}
+.carousel-button-prev, .carousel-button-next {
+    font-size: 25pt;
+    color: red;
 }
 /* VIDEOS */
 #videos {
