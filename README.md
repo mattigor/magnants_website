@@ -27,4 +27,5 @@ Website desenvolvido com o intuito de fornecer informações relevantes sobre a 
 [Igor Matheus Palma da Rosa](https://github.com/mattigor/)
 
 ### Link para o projeto
-#
+
+https://mattigor.github.io/magnants_website/
