@@ -28,4 +28,4 @@ Website desenvolvido com o intuito de fornecer informações relevantes sobre a 
 
 ### Link para o projeto
 
-https://mattigor.github.io/magnants_website/
+https://mattigor.github.io/malignants_website/
