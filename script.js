@@ -17,3 +17,8 @@ function atualizarLinkAtivo() {
 }
 window.addEventListener('scroll', atualizarLinkAtivo);
 window.addEventListener('load', atualizarLinkAtivo);
+
+// Função que adiciona animação ao menu hamburguer
+function rotateBars(bar) {
+    bar.classList.toggle("change");
+}
