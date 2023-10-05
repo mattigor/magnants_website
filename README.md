@@ -4,7 +4,7 @@
 
 ## Sobre o projeto
 
-Website desenvolvido com o intuito de fornecer informações relevantes sobre a guild MAGNANTS do jogo Adventure Quest Worlds.
+Website desenvolvido com o intuito de fornecer informações relevantes sobre a guild MALIGNANTS do jogo Adventure Quest Worlds.
 
 ## Pré-requisitos
 
